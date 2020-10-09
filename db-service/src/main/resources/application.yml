@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: db Service
+  jpa:
+    hibernate:
+      ddl-auto: update  
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver 
+    
+server:
+  port: 8045
+ 
+
+    
+eureka:
+  client:
+     registerWithEureka: true
+     fetchRegistry: true
+     serviceUrl:
+       defaultZone: http://localhost:8047/eureka/
+  instance:
+     hostname: localhost      
+
+
+
+
+    
+      
+
+
+     
+       
+       
+       
+       
+
+   
+   
